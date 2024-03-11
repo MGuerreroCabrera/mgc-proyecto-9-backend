@@ -1,0 +1,25 @@
+{
+  "name": "mgc-proyecto-9-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "scrap": "node ./src/utils/scrapperLauncher.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.2.1",
+    "puppeteer": "^22.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

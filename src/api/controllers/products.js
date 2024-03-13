@@ -1,5 +1,3 @@
-// Importar librería mongoose - BBDD
-const mongoose = require("mongoose");
 const Product = require("../models/products");
 
 // Importar archivo de artículos

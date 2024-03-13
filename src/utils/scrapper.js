@@ -31,8 +31,9 @@ const scrapper = async (url) => {
         let productName = await arrayTitles[i].$eval("a", (el) =>  el.textContent.trim());
 
         // Recoger el precio
-        let price = await arrayArticles[i].$eval(".int", (el) => el.textContent + ".99");
-        price = parseFloat(price);
+        let int = await arrayArticles[i].$eval(".int", (el) => el.textContent);
+        let decimal = await arrayArticles[i].$eval(".decimal", (el) => el.textContent);
+        let price = parseFloat(int + decimal.replace("'", "."));
 
         // Crear el objeto con los datos obtenidos
         const article = {
@@ -48,6 +49,9 @@ const scrapper = async (url) => {
 
     // Escribir el array de productos en un fichero
     writeArticles(arrayProducts);
+    
+    // Cerrar ventana del navegador
+    await browser.close();
 };
 
 // Función que escribe los articulos en un fichero

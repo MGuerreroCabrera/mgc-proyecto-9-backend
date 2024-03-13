@@ -15,11 +15,6 @@
         "price": 749.99
     },
     {
-        "img": "https://media.game.es/COVERV2/3D_L/212/212248.png",
-        "productName": "Iphone 13 128Gb Azul",
-        "price": 569.99
-    },
-    {
         "img": "https://media.game.es/COVERV2/3D_L/215/215564.png",
         "productName": "Iphone 13 Mini 512Gb Rosa",
         "price": 629.99
@@ -180,11 +175,6 @@
         "price": 449.99
     },
     {
-        "img": "https://media.game.es/COVERV2/3D_L/207/207337.png",
-        "productName": "iPhone 12 Pro Max 128Gb Plata",
-        "price": 729.99
-    },
-    {
         "img": "https://media.game.es/COVERV2/3D_L/207/207536.png",
         "productName": "iPhone 12 Pro 128Gb Plata",
         "price": 629.99
@@ -273,6 +263,11 @@
         "img": "https://media.game.es/COVERV2/3D_L/182/182344.png",
         "productName": "iPhone 11 Pro 64Gb Oro",
         "price": 459.99
+    },
+    {
+        "img": "https://media.game.es/COVERV2/3D_L/183/183068.png",
+        "productName": "iPhone 11 128Gb Negro",
+        "price": 399.99
     },
     {
         "img": "https://media.game.es/COVERV2/3D_L/183/183069.png",
@@ -522,11 +517,6 @@
     {
         "img": "https://media.game.es/COVERV2/3D_L/170/170622.png",
         "productName": "iPhone 8 256Gb Gris Espacial - Libre",
-        "price": 179.99
-    },
-    {
-        "img": "https://media.game.es/COVERV2/3D_L/170/170638.png",
-        "productName": "iPhone 8 256Gb Oro - Libre",
         "price": 179.99
     },
     {
